@@ -12,8 +12,6 @@ main img {
   display: block;
   margin: auto;
   margin-top: 5rem;
-  border: 2px solid #ff7465;
-  border-radius: 50%;
 }
 .description h2 {
   text-align: center;
