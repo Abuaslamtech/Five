@@ -33,9 +33,81 @@ button {
   color: #fff;
   font-size: 1rem;
 }
+button a {
+  color: #fff;
+}
+/* login page */
+.login,
+.signup,
+.reset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.logo {
+  font-size: 2rem;
+  background-color: #ff7465;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 4rem;
+}
+.login h4,
+.signup h4 {
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: #ff7465;
+  font-weight: bolder;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100vw;
+}
+input {
+  border: 1px solid black;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 70%;
+}
+.email,
+.pass {
+  padding: 1.2rem;
+  border-radius: 1rem;
+  width: 90%;
+  margin: auto;
+}
+.check {
+  border: 2px solid red;
+}
+label {
+  font-weight: bold;
+}
+/* hide page */
+.hide {
+  display: none;
+}
+/* web view */
 @media (min-width: 600px) {
   main img {
     width: 30rem;
     height: 30rem;
+  }
+  .input {
+    width: 30%;
+  }
+  button {
+    width: 20%;
   }
 }
