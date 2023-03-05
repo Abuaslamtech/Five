@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Getting Started</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
 </head>
 
 <body>
     <!-- login page -->
-    <div class="login">
+    <div class="login" id="login">
         <div class="logo">Five Store</div>
         <div>
             <h4>Login in to Five Store</h4>
-            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            <p>Don't have an account? <span id="signup">Sign Up</span></p>
             <div class="social">
                 <i></i>
                 <i></i>
@@ -38,15 +39,15 @@
                 <input type="checkbox"><span> I agree to your terms and conditions</span>
             </div>
         </div>
-        <button id="signin">Sign in</button>
-        <p>Forgot your password? <a href="signup.html">click here</a></p>
+        <a href="./products.html"><button id="loginBtn">Sign in</button></a>
+        <p>Forgot your password? <span id="fPassword">click here</span></p>
     </div>
     <!-- sign up page -->
-    <div class="signup hide">
+    <div class="signup hide" id="register">
         <div class="logo">Five Store</div>
         <div>
             <h4>Create Account With Us</h4>
-            <p>Already have an account? <a href="#signin">Sign In</a></p>
+            <p>Already have an account? <span id="signin">Sign In</span></p>
             <div class="social">
                 <i></i>
                 <i></i>
@@ -73,15 +74,15 @@
                 <input type="checkbox"><span> I agree to your terms and conditions</span>
             </div>
         </div>
-        <button id="signup">Sign Up</button>
+        <a href="./products.html"><button id="signupBtn">Sign Up</button></a>
 
     </div>
     <!-- Reset Password page -->
-    <div class="reset hide">
+    <div class="reset hide" id="reset">
         <div class="logo">Five Store</div>
         <div>
             <h4>Reset Your Password</h4>
-            <p>Already have an account? <a href="#signin">Sign In</a></p>
+            <p>Already have an account? <span id="signinR">Sign In</span></p>
             <div class="social">
                 <i></i>
                 <i></i>
@@ -97,7 +98,7 @@
 
 
         </div>
-        <button id="reset">Reset Password</button>
+        <a href="./products.html"><button id="resetBtn">Reset Password</button></a>
 
     </div>
 </body>

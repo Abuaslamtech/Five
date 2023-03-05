@@ -55,11 +55,18 @@ button a {
   margin-top: 4rem;
 }
 .login h4,
-.signup h4 {
+.signup h4,
+.reset h4 {
   font-size: 1.5rem;
+}
+span {
+  text-decoration: none;
+  color: #ff7465;
+  font-weight: bolder;
 }
 a {
   text-decoration: none;
+  width: 100%;
   color: #ff7465;
   font-weight: bolder;
 }
@@ -98,6 +105,130 @@ label {
 .hide {
   display: none;
 }
+/* Products page */
+.products {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 8rem;
+}
+.prhead {
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  padding: 0.5rem;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 1.5rem;
+}
+.pr {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+}
+
+.buy {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.buy:hover {
+  background-color: #fff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  color: #ff7465;
+}
+.prhead input {
+  display: block;
+  margin: auto;
+  width: 90%;
+  padding: 1.5rem;
+  border: none;
+  outline: none;
+}
+.flyer {
+  width: 80%;
+  height: 8rem;
+  background: #fdcf9f;
+  display: flex;
+  margin: auto;
+  margin-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+.pr img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 2rem;
+  display: block;
+  margin: auto;
+}
+.nav {
+  height: 4rem;
+  padding: 0.5rem;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 3rem 3rem 0 0;
+  box-sizing: border-box;
+}
+.nav a {
+  box-shadow: 2px 2px 8px #fff;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sel {
+  bottom: 2rem;
+  background-color: #ff7465;
+  color: #fff;
+}
+/* order page */
+.orderP {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.image {
+  margin-top: 4rem;
+}
+.image img {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.orderP button {
+  width: 50%;
+}
+
 /* web view */
 @media (min-width: 600px) {
   main img {
@@ -109,5 +240,20 @@ label {
   }
   button {
     width: 20%;
+  }
+  /* products page */
+  .products {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .prhead {
+    width: 50%;
+  }
+  .flyer {
+    width: 60%;
+  }
+  .nav {
+    width: 60%;
   }
 }
