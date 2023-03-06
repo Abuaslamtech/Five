@@ -228,6 +228,14 @@ label {
 .orderP button {
   width: 50%;
 }
+/* reset password page */
+.ps {
+  width: 80%;
+  padding: 2rem;
+  background-color: #fdcf9f;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
 
 /* web view */
 @media (min-width: 600px) {
@@ -240,6 +248,11 @@ label {
   }
   button {
     width: 20%;
+  }
+  /* reset password page */
+  .ps {
+    width: 40%;
+    text-align: center;
   }
   /* products page */
   .products {

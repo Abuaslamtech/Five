@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Getting Started</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <script src="./app.js" defer></script>
 </head>
 
@@ -16,7 +16,7 @@
         <div class="logo">Five Store</div>
         <div>
             <h4>Login in to Five Store</h4>
-            <p>Don't have an account? <span id="signup">Sign Up</span></p>
+            <p>Don't have an account? <a href="./register.html">Sign Up</a></p>
             <div class="social">
                 <i></i>
                 <i></i>
@@ -27,79 +27,20 @@
         <div class="form">
             <div class="input">
                 <label for="email">Email:</label>
-                <input type="email" class="email" placeholder="example@gmail.com">
+                <input type="email" class="email" placeholder="example@gmail.com" />
             </div>
             <div class="input">
                 <label for="Password">Password:</label>
-                <input type="password" class="pass" placeholder="**********">
-
+                <input type="password" class="pass" placeholder="**********" />
             </div>
 
             <div>
-                <input type="checkbox"><span> I agree to your terms and conditions</span>
+                <input type="checkbox" /><span>
+                    I agree to your terms and conditions</span>
             </div>
         </div>
         <a href="./products.html"><button id="loginBtn">Sign in</button></a>
-        <p>Forgot your password? <span id="fPassword">click here</span></p>
-    </div>
-    <!-- sign up page -->
-    <div class="signup hide" id="register">
-        <div class="logo">Five Store</div>
-        <div>
-            <h4>Create Account With Us</h4>
-            <p>Already have an account? <span id="signin">Sign In</span></p>
-            <div class="social">
-                <i></i>
-                <i></i>
-                <i></i>
-            </div>
-        </div>
-
-        <div class="form">
-            <div class="input">
-                <label for="email">Full Name:</label>
-                <input type="text" class="email" placeholder="Yusuf Emmanuel">
-            </div>
-            <div class="input">
-                <label for="email">Email:</label>
-                <input type="email" class="email" placeholder="example@gmail.com">
-            </div>
-            <div class="input">
-                <label for="Password">Password:</label>
-                <input type="password" class="pass" placeholder="**********">
-
-            </div>
-
-            <div>
-                <input type="checkbox"><span> I agree to your terms and conditions</span>
-            </div>
-        </div>
-        <a href="./products.html"><button id="signupBtn">Sign Up</button></a>
-
-    </div>
-    <!-- Reset Password page -->
-    <div class="reset hide" id="reset">
-        <div class="logo">Five Store</div>
-        <div>
-            <h4>Reset Your Password</h4>
-            <p>Already have an account? <span id="signinR">Sign In</span></p>
-            <div class="social">
-                <i></i>
-                <i></i>
-                <i></i>
-            </div>
-        </div>
-
-        <div class="form">
-            <div class="input">
-                <label for="email">Email:</label>
-                <input type="email" class="email" placeholder="example@gmail.com">
-            </div>
-
-
-        </div>
-        <a href="./products.html"><button id="resetBtn">Reset Password</button></a>
-
+        <p>Forgot your password? <a href="./reset.html">click here</a></p>
     </div>
 </body>
 
