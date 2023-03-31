@@ -211,6 +211,9 @@ label {
   align-items: center;
   gap: 4rem;
 }
+.orderP p {
+  text-align: center;
+}
 .image {
   margin-top: 4rem;
 }

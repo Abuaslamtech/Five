@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="./app.js" defer></script>
+    <script src="./resetValidation.js" defer></script>
     <title>Reset Password</title>
 </head>
 
@@ -21,30 +21,26 @@
         <div>
             <h4>Reset Your Password</h4>
             <p>Already have an account? <a href="./login.html">Sign In</a></p>
-            <div class="social">
-                <i></i>
-                <i></i>
-                <i></i>
-            </div>
+
         </div>
 
         <div class="form">
             <div class="input">
                 <label for="email">Email:</label>
-                <input type="email" class="email" placeholder="example@gmail.com">
+                <input type="email" id="email" class="email" placeholder="example@gmail.com">
             </div>
             <div class="input">
                 <label for="password">New Password:</label>
-                <input type="password" class="pass" placeholder="*********">
+                <input type="password" class="pass" id="password" placeholder="*********">
             </div>
             <div class="input">
                 <label for="password">Confirm Password:</label>
-                <input type="password" class="pass" placeholder="*********">
+                <input type="password" class="pass" id="cPassword" placeholder="*********">
             </div>
 
 
         </div>
-        <button id="resetBtn">Reset Password</button>>
+        <a id="link"><button id="resetBtn">Reset Password</button></a>
 
     </div>
 </body>
